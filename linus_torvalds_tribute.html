@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Linus Torvalds Tribute</title>
 
+    <!-- adding favicon -->
+    <link rel="shortcut icon" href="Linus_Bhaya.jpeg" type="image/x-icon">
+
     <!-- style -->
     <style>
         .achievements-year{
@@ -19,12 +22,20 @@
         html{
             scroll-behavior: smooth;
         }
+        aside{
+            width: 25%;
+            float: right;
+            background-color: aquamarine;
+        }
     </style>
 </head>
 <body>
-    <section>
+
+    <header>
         <h1>Linus Torvalds</h1>
         <p>The Creator of Linux</p>
+    </header>
+    <section>
         
         <!-- A photograph of Linus Torvalds -->
         <div style="margin-left: 40px;">
@@ -32,21 +43,33 @@
             <p>A photograph of Linus Torvalds</p>
         </div>
 
+    
+    </section>
+
+    <nav>
         <!-- bookmark -->
         <a href="#resources">Go to resources</a>
-    </section>
+        <br>
+        <a href="#biography">Go to biography</a>
+        <br>
+        <a href="#achievements">Go to achievements</a>
+    </nav>
 
     <section>
         <!-- Biography -->
-        <h2>Biography</h2>
+        <h2 id="biography">Biography</h2>
         <p>Linus Torvalds is a Finnish-American software engineer who is the creator and principal developer of the Linux kernel, which is the kernel for a number of operating systems. He also created the version control system Git. Torvalds was born on December 28, 1969 in Helsinki, Finland. He studied computer science at the University of Helsinki, and he developed the Linux kernel as a student project in 1991. Since then, the Linux kernel has become one of the most widely used kernels in the world, powering everything from smartphones to supercomputers.</p>
 
     </section>
+
+    <aside>
+        <p>Linus Torvalds is a Finnish-American software engineer who is the creator and principal developer of the Linux kernel, which is the kernel for a number of operating systems. He also created the version control system Git. Torvalds was born on December 28, 1969 in Helsinki, Finland. He studied computer science at the University of Helsinki, and he developed the Linux kernel as a student project in 1991. Since then, the Linux kernel has become one of the most widely used kernels in the world, powering everything from smartphones to supercomputers.</p>
+    </aside>
     
 
     <section>
         <!-- Achievements -->
-        <h2>Achievements</h2>
+        <h2 id="achievements">Achievements</h2>
         <ul>
             <li>
                 <span class="achievements-year">1991</span>
